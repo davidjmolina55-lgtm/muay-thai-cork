@@ -1,0 +1,48 @@
+/* Google import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Guerrilla&display=swap");
+
+/* Custom CSS Variables */
+:root {
+    --font-primary: "Open Sans", sans-serif;
+    --font-secondary: "Protest Guerrilla", cursive;
+    --color-primary: #950606; /* Dark Red */
+    --color-secondary: #2222f5; /* Vibrant Blue */
+    --color-accent: #ffffff; /* White for text*/
+}
+/* General Styling */
+h1,
+h2,
+h3 {
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+}
+
+body {
+    font-family: var(--font-primary);
+    padding-top: 75px; /* Push header text down the page to look neater */
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--color-secondary);
+    font-size: 120%;
+}
+
+.navbar-brand {
+    font-size: 120%;
+}
+
+/* Icon style */
+.circle-container {
+    width: 50px; /* Or any desired size */
+    height: 50px; /* Make width and height equal */
+    border-radius: 50%; /* Creates the circular shape */
+    overflow: hidden; /* Hides parts of the image that fall outside the circle */
+    display: inline-block; /* Or block, to allow setting dimensions */
+}
+
+.circle-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+}

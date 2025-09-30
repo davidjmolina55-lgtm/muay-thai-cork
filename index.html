@@ -9,29 +9,80 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- CSS Stylesheet Link -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Favicon for page logo-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
-<!-- Header of the page-->
 
-<body>
-    <header>
-        <h1>Welcome to Muay Thai Cork</h1>
-        <p>Your journey to mastering Muay Thai begins here.</p>
+<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="circle-container">
+                    <img src="assets/images/favicon.ico" alt="Muay Thai Cork Logo" class="logo">
+                </div>
+                <a class="navbar-brand ms-4" href="#">Muay Thai | Cork</a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Map</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header" class="container section">
+        <div class="row">
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1>Muay Thai Cork</h1>
+                <p class="lead display 6 sub-heading-color">The Art Of Eight Limbs</p>
+                <p>Here at Muay Thai Cork we specialise in the art of combat. Muay Thai, also known as Thai boxing, is a
+                    traditional martial art from Thailand that emphasizes striking
+                    techniques using fists, elbows, knees, and shins. It is known as the "Art of Eight Limbs" due to the
+                    use
+                    of these eight points of contact. Muay Thai is not only a sport but also a cultural practice that
+                    incorporates rituals, music, and ceremonies. We welcome all people from all types of backgrounds,
+                    whether you're new or returning to combat sports.
+                    For more information don't hesitate to contact us through phone or email or pop in to the gym for a
+                    chat with one of our trainers!</p>
+
+            </div>
+        </div>
+        </div>
     </header>
     <!-- Main Content of the page-->
     <main>
-        <section>
-            <h2>About Muay Thai</h2>
-            <p>Muay Thai, also known as Thai boxing, is a traditional martial art from Thailand that emphasizes striking
-                techniques using fists, elbows, knees, and shins. It is known as the "Art of Eight Limbs" due to the use
-                of these eight points of contact. Muay Thai is not only a sport but also a cultural practice that
-                incorporates rituals, music, and ceremonies.</p>
+        <section id="section1" class="text-center">
         </section>
     </main>
 
     <!-- Footer of the page-->
-    <footer>
+    <footer class="mt-auto">
         <p> 2023 Muay Thai Cork. All rights reserved.</p>
     </footer>
 
