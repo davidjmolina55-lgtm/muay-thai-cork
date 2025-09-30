@@ -19,9 +19,16 @@ h3 {
 
 body {
     font-family: var(--font-primary);
+    color: var(--color-accent);
     padding-top: 75px; /* Push header text down the page to look neater */
 }
 
+body {
+    background-image: url("../images/background-image.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 /* Navbar */
 #navbar {
     background-color: var(--color-secondary);
