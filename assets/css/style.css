@@ -56,6 +56,20 @@ body {
     object-fit: cover; /* Ensures the image covers the entire circle without distortion */
 }
 
+/* hero section */
+
+#cover-text {
+    background-color: var(--color-secondary);
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+}
+#cover-text2 {
+    background-color: var(--color-secondary);
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+}
 /* Footer */
 
 /* Push Footer to end of the page */
