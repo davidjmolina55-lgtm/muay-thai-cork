@@ -8,13 +8,14 @@
     --color-primary: #950606; /* Dark Red */
     --color-secondary: #2222f5; /* Vibrant Blue */
     --color-accent: #ffffff; /* White for text*/
+    --color-primary-transparent: rgba(149, 6, 6, 0.5);
 }
 /* General Styling */
 h1,
 h2,
 h3 {
-    font-family: var(--font-secondary);
-    color: var(--color-primary);
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
 }
 
 body {
@@ -33,7 +34,7 @@ body {
 
 /* Navbar */
 #navbar {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     font-size: 120%;
 }
 
@@ -43,11 +44,11 @@ body {
 
 /* Icon style */
 .circle-container {
-    width: 50px; /* Or any desired size */
-    height: 50px; /* Make width and height equal */
+    width: 50px;
+    height: 50px;
     border-radius: 50%; /* Creates the circular shape */
     overflow: hidden; /* Hides parts of the image that fall outside the circle */
-    display: inline-block; /* Or block, to allow setting dimensions */
+    display: inline-block;
 }
 
 .circle-container img {
@@ -58,17 +59,59 @@ body {
 
 /* hero section */
 
+/* Red border around text */
 #cover-text {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     bottom: 30px;
     width: 80%;
     min-height: 200px;
+    background: var(--color-primary-transparent);
 }
 #cover-text2 {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     bottom: 30px;
     width: 80%;
     min-height: 200px;
+    background: var(--color-primary-transparent);
+}
+
+/* Main */
+#classes1 {
+    background-color: var(--color-primary);
+    bottom: 20px;
+    width: 101%;
+    margin-top: 2rem;
+    background: var(--color-primary-transparent);
+}
+
+.card-img-top {
+    width: 299px;
+    height: 250px;
+    background-size: cover;
+}
+
+div.card {
+    width: 310px;
+    height: 100%;
+}
+
+div.card-footer {
+    width: 322px;
+    height: 65px;
+}
+
+.services {
+    margin-bottom: 100px;
+}
+
+#t-header {
+    margin-top: 2rem;
+    background-color: var(--color-primary);
+    bottom: 20px;
+    width: 100%;
+    margin-top: 2rem;
+    background: var(--color-primary-transparent);
+    margin-bottom: 0.5rem;
 }
 /* Footer */
 
