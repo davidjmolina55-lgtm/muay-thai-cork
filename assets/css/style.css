@@ -8,7 +8,7 @@
     --color-primary: #950606; /* Dark Red */
     --color-secondary: #2222f5; /* Vibrant Blue */
     --color-accent: #ffffff; /* White for text*/
-    --color-primary-transparent: rgba(149, 6, 6, 0.5);
+    --color-primary-transparent: rgba(149, 6, 6, 0.7);
 }
 /* General Styling */
 h1,
@@ -115,8 +115,20 @@ div.card-footer {
 }
 /* Footer */
 
-/* Push Footer to end of the page */
-footer {
-    position: fixed;
-    bottom: 0;
+Footer {
+    margin-top: 2rem;
+    background-color: var(--color-primary);
+    bottom: 20px;
+    width: 100%;
+    margin-top: 2rem;
+    background: var(--color-primary-transparent);
+    margin-bottom: 0.5rem;
+}
+
+.fa-facebook {
+    margin-right: 100px;
+}
+
+.fa-twitter{
+margin-right: 100px
 }
