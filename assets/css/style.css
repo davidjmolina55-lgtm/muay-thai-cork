@@ -6,7 +6,7 @@
     --font-primary: "Open Sans", sans-serif;
     --font-secondary: "Protest Guerrilla", cursive;
     --color-primary: #950606; /* Dark Red */
-    --color-secondary: #2222f5; /* Vibrant Blue */
+    --color-secondary: #000008; /* Black */
     --color-accent: #ffffff; /* White for text*/
     --color-primary-transparent: rgba(149, 6, 6, 0.7);
 }
@@ -129,6 +129,20 @@ Footer {
     margin-right: 100px;
 }
 
-.fa-twitter{
-margin-right: 100px
+.fa-twitter {
+    margin-right: 100px;
+}
+
+/* Map position - Full width at bottom */
+#googleMap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#googleMap iframe {
+    width: 100%;
+    height: 450px;
+    display: block;
+    border: 0;
 }
