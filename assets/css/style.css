@@ -159,3 +159,159 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust body padding for mobile */
+    body {
+        padding-top: 60px;
+    }
+
+    /* Navbar adjustments */
+    .navbar-brand {
+        font-size: 100%;
+    }
+
+    /* Header container - stack horizontally on mobile */
+    .header-container .row {
+        flex-direction: column;
+    }
+
+    .header-container .col {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Hero sections - horizontal stacking */
+    #cover-text,
+    #cover-text2 {
+        width: 100%;
+        min-height: 120px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    /* Ensure carousel also stacks properly */
+    .header-container .carousel {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    /* Cards responsive */
+    .card-img-top {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    div.card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    div.card-footer {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    /* Classes header */
+    #classes1 {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    /* Timetable header */
+    #t-header {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    /* Table responsive */
+    .table {
+        font-size: 0.85rem;
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 1.5rem 0;
+        margin-top: 2rem;
+    }
+
+    /* Social media icons spacing */
+    .fa-facebook,
+    .fa-twitter {
+        margin-right: 20px;
+    }
+
+    /* Contact info stacking */
+    footer .col-xl-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Phone numbers smaller text on mobile */
+    .phone-contact p {
+        font-size: 0.9rem;
+    }
+
+    /* Map height adjustment for mobile */
+    #googleMap iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra small mobile devices */
+    body {
+        padding-top: 50px;
+    }
+
+    /* Even smaller hero sections */
+    #cover-text,
+    #cover-text2 {
+        width: 98%;
+        min-height: 120px;
+        padding: 0.75rem;
+    }
+
+    /* Smaller cards */
+    .card-img-top {
+        height: 150px;
+    }
+
+    /* Smaller text */
+    .card-text {
+        font-size: 0.85rem;
+    }
+
+    /* Compact footer */
+    footer {
+        padding: 1rem 0;
+    }
+
+    /* Smaller social icons */
+    .social-links a i {
+        font-size: 1.5rem;
+    }
+
+    /* Smaller map */
+    #googleMap iframe {
+        height: 250px;
+    }
+
+    /* Compact table */
+    .table {
+        font-size: 0.75rem;
+    }
+
+    .table th,
+    .table td {
+        padding: 0.5rem 0.25rem;
+    }
+}
