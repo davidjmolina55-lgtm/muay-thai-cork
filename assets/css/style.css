@@ -115,14 +115,18 @@ div.card-footer {
 }
 /* Footer */
 
-Footer {
-    margin-top: 2rem;
+footer {
     background-color: var(--color-primary);
-    bottom: 20px;
-    width: 100%;
-    margin-top: 2rem;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 3rem;
     background: var(--color-primary-transparent);
     margin-bottom: 0.5rem;
+    padding: 2rem 0;
 }
 
 .fa-facebook {
@@ -135,9 +139,16 @@ Footer {
 
 /* Map position - Full width at bottom */
 #googleMap {
-    width: 100%;
-    margin: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #googleMap iframe {
@@ -145,4 +156,6 @@ Footer {
     height: 450px;
     display: block;
     border: 0;
+    margin: 0;
+    padding: 0;
 }
