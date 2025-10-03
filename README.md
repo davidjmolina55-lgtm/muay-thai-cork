@@ -2,20 +2,20 @@
 
 A modern, responsive website for Muay Thai Cork, a martial arts gym located in Cork, Ireland. This website showcases the gym's classes, schedules, and provides essential contact information for potential members.
 
-## 🥊 About Muay Thai Cork
+## About Muay Thai Cork
 
 Muay Thai Cork specializes in "The Art of Eight Limbs" - traditional Thai boxing that emphasizes striking techniques using fists, elbows, knees, and shins. We welcome people from all backgrounds, whether new to combat sports or returning practitioners.
 
-## 🌟 Features
+## Features
 
-### 📱 Responsive Design
+### Responsive Design
 
 -   **Mobile-First Approach**: Fully optimized for all device sizes
 -   **Responsive Navigation**: Collapsible navbar for mobile devices
 -   **Mobile-Optimized Cards**: Class information cards that stack properly on mobile
 -   **Touch-Friendly Interface**: Adequate spacing and sizing for mobile interaction
 
-### 🏠 Homepage (index.html)
+### Homepage (index.html)
 
 -   **Hero Section**: Eye-catching introduction with gym philosophy
 -   **Core Values**: Highlighting the gym's welcoming, no-ego environment
@@ -29,13 +29,13 @@ Muay Thai Cork specializes in "The Art of Eight Limbs" - traditional Thai boxing
 -   **Contact Information**: Multiple contact methods with trainer details
 -   **Social Media Integration**: Links to Facebook, Twitter, and Instagram
 
-### 🖼️ Gallery Page (gallery.html)
+### Gallery Page (gallery.html)
 
 -   **Training Gallery**: Collection of gym photos and training sessions
 -   **Responsive Image Grid**: Images that adapt to different screen sizes
 -   **Consistent Navigation**: Same header and footer as main page
 
-### 🎨 Design Elements
+### Design Elements
 
 -   **Custom Color Scheme**: Dark red (#950606) primary color with transparent overlays
 -   **Background Image**: Full-screen background with fixed attachment
@@ -43,14 +43,14 @@ Muay Thai Cork specializes in "The Art of Eight Limbs" - traditional Thai boxing
 -   **Typography**: Clean, readable fonts with proper hierarchy
 -   **Icons**: FontAwesome icons for contact information and social media
 
-### 📍 Interactive Features
+### Interactive Features
 
 -   **Google Maps Integration**: Embedded map showing gym location (Mayfield Sports Complex)
 -   **Full-Width Elements**: Footer and map extend edge-to-edge for modern look
 -   **Hover Effects**: Interactive elements with smooth transitions
 -   **Contact Details**: Multiple phone numbers for different trainers
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Technologies Used
 
@@ -74,7 +74,7 @@ Muay Thai Cork specializes in "The Art of Eight Limbs" - traditional Thai boxing
 -   **Tablet**: Optimized layout for screens ≤ 768px
 -   **Mobile**: Compact design for screens ≤ 480px
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 muay-thai-cork/
@@ -103,7 +103,7 @@ muay-thai-cork/
 │       └── favicon files
 ```
 
-## 🎯 Key Improvements Made
+## Key Improvements Made
 
 ### Mobile Optimization
 
@@ -128,7 +128,7 @@ muay-thai-cork/
 -   ✅ CDN-hosted Bootstrap and FontAwesome
 -   ✅ Semantic HTML for better SEO
 
-## 📞 Contact Information
+## Contact Information
 
 -   **Location**: Old Youghal Road, Mayfield, Cork City, T23NX51
 -   **Email**: muaythaicork@gmail.com
@@ -138,7 +138,7 @@ muay-thai-cork/
     -   Damien: +353 21 987 6543
     -   Richard: +353 21 654 3210
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 -   [ ] Online booking system for classes
 -   [ ] Member login portal
@@ -147,7 +147,7 @@ muay-thai-cork/
 -   [ ] Online merchandise store
 -   [ ] Multi-language support (Irish/English)
 
-## 🧑‍💻 Development
+## Development
 
 This website was built with modern web development practices, focusing on:
 
@@ -155,6 +155,16 @@ This website was built with modern web development practices, focusing on:
 -   **Performance**: Optimized for fast loading
 -   **SEO**: Semantic HTML and proper meta tags
 -   **Maintainability**: Clean, organized code structure
+
+## Validation and Testing
+
+-   **W3C Markup Validation Service**
+-   **W3C CSS Validation Service**
+-   **Google Lighthouse**
+
+    ![Alt-text](assets/images/scrscores.PNG)
+    ![Alt-text](assets/images/Screenshot%202025-10-03%20at%2009-26-21%20Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.png)
+    ![Alt-text](<assets/images/Screenshot%202025-10-03%20at%2009-26-01%20W3C%20CSS%20Validator%20results%20for%20TextArea%20(CSS%20level%203%20SVG).png>)
 
 ---
 
